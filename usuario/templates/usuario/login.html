@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html> 
+    <head>Login de Usuario</head>
+<body>
+    <main style="margin: 50px;">
+    <h1>Login de Usuario</h1>
+    {% if msj %} <div>{{ msj }}</div> {% endif %} 
+    <form action="{% url 'usuario:login' %}" method="post"> 
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="Username"> 
+    <input type="password" name="password" placeholder="Password"> 
+    <input type="submit" value="Login"> 
+    </form>
+    </main>
+    <footer class="mt-5 p-4 bg-dark text-white text-center">
+        <p>2024 - Todos los derechos reservados, Urbáez y Asociados.</p>
+    </footer>
+</body> 
+</html>
