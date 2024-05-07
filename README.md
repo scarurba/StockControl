@@ -5,4 +5,5 @@ Por ello, se crearon 4 vistas diferentes con funciones básicas de CRUD usando D
 Tiene un inicio de sesión sencillo y funcional (login) que a su vez permite restringir el acceso a datos más sensibles. 
   +Se recomienda crear un entorno virtual desde la terminal cmd usando los comandos de python: python -m venv nombreproyecto.
   +Al descargar el repo tendrá acceso a un archivo requirements.txt que puede install con pip, esto facilitará la implementación del proyecto dentro del entorno virtual. 
-  +Cuando con una base de datos SQLite3
+  +Cuando con una base de datos SQLite3.
+  +Para correr el servidor y usar la app, no olvides usar el comando: python manage.py runserver y dirigirte a la URL que te dará este comando. 
